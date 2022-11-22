@@ -29,7 +29,7 @@ const data = [
 
 const Statistics = () => {
     return (
-        <div className='flex justify-center my-10'>
+        <div className='flex justify-center my-10' >
             <BarChart width={600} height={300} data={data}>
             <XAxis dataKey="name" stroke="#8884d8" />
             <YAxis />
