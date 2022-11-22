@@ -36,32 +36,26 @@ export default function Example() {
         <Fragment>
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          What is Material Tailwind?
+          What is the purpose of React Router?
         </AccordionHeader>
         <AccordionBody>
-          We're not always in the position that we want to be at. We're
-          constantly growing. We're constantly making mistakes. We're constantly
-          trying to express ourselves and actualize our dreams.
+        React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          How to use Material Tailwind?
+          How does context API works?
         </AccordionHeader>
         <AccordionBody>
-          We're not always in the position that we want to be at. We're
-          constantly growing. We're constantly making mistakes. We're constantly
-          trying to express ourselves and actualize our dreams.
+        The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          What can I do with Material Tailwind?
+          What is useRef?
         </AccordionHeader>
         <AccordionBody>
-          We're not always in the position that we want to be at. We're
-          constantly growing. We're constantly making mistakes. We're constantly
-          trying to express ourselves and actualize our dreams.
+        Essentially, useRef is like a “box” that can hold a mutable value in its .current property. You might be familiar with refs primarily as a way to access the DOM. If you pass a ref object to React with, React will set its .current property to the corresponding DOM node whenever that node changes.
         </AccordionBody>
       </Accordion>
     </Fragment>

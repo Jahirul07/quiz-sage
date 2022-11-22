@@ -38,7 +38,7 @@ function App() {
     },
     {
       path: '*',
-      element: <div>This page not found</div>
+      element: <div className='text-center text-4xl'>This page not found 404</div>
     }
   ])
 
