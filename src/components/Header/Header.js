@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className='flex justify-between drop-shadow-lg bg-gray-50 nav-container items-center'>
+        <nav className='flex navBar justify-between drop-shadow-lg bg-gray-50 nav-container items-center'>
             <div className='nav-left'>
                 <h2 className='text-2xl font-semibold mx-5 text-rose-600'>QuizSage</h2>
             </div>

@@ -31,7 +31,8 @@ export default function Example() {
   };
  
   return (
-    <div>
+    <div className='flex justify-center text-center my-5'>
+        <div className='w-9/12'>
         <Fragment>
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(1)}>
@@ -64,6 +65,7 @@ export default function Example() {
         </AccordionBody>
       </Accordion>
     </Fragment>
+    </div>
     </div>
   );
 }

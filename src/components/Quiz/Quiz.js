@@ -9,7 +9,7 @@ const Quiz = () => {
     // console.log(quizzes)
     return (
         <div>
-            <h2>{quizzes.data.name} of Question</h2>
+            <h2 className='text-4xl text-center my-10'>Question of {quizzes.data.name}</h2>
             {
                 questions.map(quiz => <Question
                 key={quiz.id}

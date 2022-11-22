@@ -10,12 +10,12 @@ const Home = () => {
         <div>
             <div className='flex justify-center text-center'>
             <div className='width my-16'>
-            <h1 className='text-5xl my-8'>Specialized tests</h1>
+            <h1 className='md:text-5xl my-8 text-3xl'>Specialized tests</h1>
             <p className='text-lg'>QuizSage is the leading online quizzes for learning and fun. We have the perfect package of online quizzes and tools that help you learn efficiently and quickly.</p>
             </div>
             </div>
 
-            <div className='grid grid-cols-4 gap-4 my-5 mx-5'>
+            <div className='grid  grid-cols-1 lg:grid-cols-4 gap-4 my-5 mx-5'>
             {
                 data.map(quizs => <Carts
                 key={quizs.id}

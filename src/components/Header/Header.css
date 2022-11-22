@@ -1,5 +1,7 @@
 .nav-container{
     height: 60px;
+    /* position: fixed;
+    width: 100%; */
 }
 
 .nav-container a{
@@ -7,4 +9,18 @@
 }
 .nav-right a:hover{
     color: tomato;
+}
+
+@media (max-width: 640px){
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+    .nav-container a{
+        margin: 0px 20;
+    }
+    .nav-container{
+        padding: 10px 0;
+    }
 }
