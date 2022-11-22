@@ -6,7 +6,6 @@ import './Home.css'
 const Home = () => {
     const subNames = useLoaderData();
     const {data} = subNames;
-    console.log(data)
     return (
         <div>
             <div className='flex justify-center text-center'>
