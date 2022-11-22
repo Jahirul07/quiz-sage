@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div className='grid grid-cols-4 gap-4 my-5'>
+            <div className='grid grid-cols-4 gap-4 my-5 mx-5'>
             {
                 data.map(quizs => <Carts
                 key={quizs.id}
