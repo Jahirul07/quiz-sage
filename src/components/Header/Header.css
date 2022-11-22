@@ -1,0 +1,10 @@
+.nav-container{
+    height: 60px;
+}
+
+.nav-container a{
+    margin-left: 10px;
+}
+.nav-right a:hover{
+    color: tomato;
+}

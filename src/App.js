@@ -24,6 +24,10 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <div>This page not found</div>
     }
   ])
 
